@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Human Before Resource</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand p-2" href="#">
+        <img
+          src="../assets/HBR_logo.jpg"
+          width="130"
+          height="80"
+          class="d-inline-block align-top"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown position-static px-2">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <h5>Products</h5>
+            </a>
+            <div
+              class="dropdown-menu mt-0 w-100 shadow border-outline-success"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown position-static px-2">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <h5>Platform</h5>
+            </a>
+            <div
+              class="dropdown-menu mt-0 w-100 shadow border-outline-success"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown position-static px-2">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <h5>Resources</h5>
+            </a>
+            <div
+              class="dropdown-menu mt-0 w-100 shadow border-outline-success"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav mr-right">
+          <li class="nav-item dropdown position-static px-2">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <h5>Demo</h5>
+            </a>
+          </li>
+          <li class="nav-item dropdown position-static px-2">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <h5>Pricing</h5>
+            </a>
+          </li>
+          <li class="nav-item dropdown position-static px-2">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <h5><i class="bi bi-globe"></i></h5>
+            </a>
+          </li>
+          <li class="nav-item dropdown position-static px-2">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <h5><i class="bi bi-person-fill"></i></h5>
+            </a>
+          </li>
+          <li class="nav-item dropdown position-static px-2">
+            <button type="button" class="btn btn-outline-success">
+              Free Trial
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Nav ends here-->
+
+    <!-- main content -->
+
+    <div class="container-fluid banner">
+      <div class="row">
+        <div class="col-sm left-section">
+          <h1>
+            Same easy software. <br />New
+            <span
+              style="
+                letter-spacing: -0.091rem;
+                background: linear-gradient(
+                    90.05deg,
+                    rgb(181, 255, 211) 0.02%,
+                    rgb(209, 164, 255) 39.16%,
+                    rgb(255, 165, 175) 75.82%,
+                    rgb(255, 220, 164) 112%
+                  )
+                  text;
+                -webkit-text-fill-color: transparent;
+              "
+              >AI superpowers.</span
+            >
+          </h1>
+          <p>
+            Customer service, IT, and CRM software that is powerful yet easy to
+            use. Now supercharged with generative AI.
+          </p>
+          <div class="section-button">
+            <button type="button" class="btn-lg btn-primary">
+              Free Trials
+            </button>
+            <button type="button" class="btn-lg btn-outline-secondary">
+              Demos
+            </button>
+          </div>
+        </div>
+        <div class="col-sm right-section">
+          <img src="../assets/Homepage-hero-q4-2023.webp" alt="" />
+        </div>
+      </div>
+      <div class="clients">
+        <span
+          style="
+            color: #fff;
+            letter-spacing: 1.25px;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+          "
+          >Trusted by 60,000+ businesses of all sizes</span
+        >
+        <div id="slideshow-container">
+          <div class="mySlides">
+            <img src="../assets/logo1.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo2.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo1.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo2.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo1.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo2.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo1.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo2.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo1.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo2.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo1.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo2.jpg" width="110px" alt="" />
+          </div>
+          <div class="mySlides">
+            <img src="../assets/logo1.jpg" width="110px" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section2">
+      <h1>
+        Happy customers. Energized <br />
+        employees. That is impact.
+      </h1>
+      <p>
+        Choose one. Or all. You device-width see better customer relationships
+        and happier employees—<br />without the bloat, hassle, and expense of
+        typical business software.
+      </p>
+      <div class="section2-btns">
+        <button type="button" class="btn-lg btn-outline-success col-sm-2">
+          Customer Service
+        </button>
+        <button type="button" class="btn-lg btn-outline-success col-sm-2">
+          IT Service
+        </button>
+        <button type="button" class="btn-lg btn-outline-success col-sm-2">
+          CRM
+        </button>
+      </div>
+      <div class="ssimage">
+        <img src="../assets/cx-screenshot-homepage-Aug4-2023.webp" alt="" />
+      </div>
+    </div>
+    <div class="extra-bg">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <div class="section3">
+        <div class="image-placeholder">
+          <img
+            id="placeholderImage"
+            src="../assets/only-image-support.webp"
+            alt="Placeholder Image"
+          />
+        </div>
+        <div class="right-side">
+          <div class="right-side-heading">
+            <span
+              style="
+                font-size: 1rem;
+                font-weight: 700;
+                letter-spacing: 1.25px;
+                text-transform: uppercase;
+              "
+              >Human-Before-Resource products</span
+            >
+            <h2
+              style="
+                font-size: 3.5rem;
+                font-weight: 600;
+                letter-spacing: -0.02em;
+              "
+            >
+              All SaaS, no bloat.
+            </h2>
+          </div>
+          <div class="right-side container">
+            <div class="right-side row">
+              <div class="col">
+                <div
+                  class="card card-style-a"
+                  onmouseover="showImage('../assets/only-image-support.webp')"
+                >
+                  <div class="card-content">
+                    <h3>Customer Service Suite</h3>
+                    <p>
+                      Get the whole package with our all-in-one solution,
+                      boosted with generative AI.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="card card-style-a"
+                  onmouseover="showImage('../assets/freshservice-offsetgrid-updated.webp')"
+                >
+                  <div class="card-content">
+                    <h3>Freshservice</h3>
+                    <p>
+                      Modernize IT service and operations with an intuitive,
+                      completely integrated IT.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <div
+                  class="card card-style-a"
+                  onmouseover="showImage('../assets/freshchat.webp')"
+                >
+                  <div class="card-content">
+                    <h3>Freshchat</h3>
+                    <p>
+                      Have more meaningful conversations, across every channel,
+                      with every customer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="card card-style-a"
+                  onmouseover="showImage('../assets/freshdesk.webp')"
+                >
+                  <div class="card-content">
+                    <h3>Freshdesk</h3>
+                    <p>
+                      Scale faser with a unified, intelligent customer support
+                      platform.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <div
+                  class="card card-style-a"
+                  onmouseover="showImage('../assets/freshsales.webp')"
+                >
+                  <div class="card-content">
+                    <h3>Freshsales</h3>
+                    <p>
+                      Sell smarter and faster while leaving time consuming tasks
+                      to automation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="card card-style-a"
+                  onmouseover="showImage('../assets/freshmarketer.webp')"
+                >
+                  <div class="card-content">
+                    <h3>Freshmarketer</h3>
+                    <p>
+                      Attract, engage and nurture your customers through the
+                      engagement channels they love.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <div
+                  class="card card-style-a"
+                  onmouseover="showImage('../assets/all-products.webp')"
+                >
+                  <div class="card-content">
+                    <h3>All products and trials</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section4 testimonial">
+      <h1 style="font-size: 3.5rem; font-weight: 700; padding-bottom: 30px">
+        Don't just take it from us
+      </h1>
+      <div class="main">
+        <div class="testimonial-card">
+          <div class="text">
+            <p style="font-size: 1.5rem">
+              The customer is getting their query resolved before they ever need
+              to talk to an agent. Testimonial 1
+            </p>
+            <span style="font-size: 1.4em; font-weight: 600"
+              >Nikhil Asopa<br
+            /></span>
+            <span style="font-size: 1.1em; font-weight: 600"
+              >Senior Vice President and Head of Customer Service</span
+            >
+          </div>
+          <img
+            src="../assets/tatadigital-logo-400x400.webp"
+            width="400"
+            height="400"
+            alt=""
+          />
+        </div>
+        <div
+          class="testimonial-card"
+          style="background-color: rgb(167, 223, 242)"
+        >
+          <div class="text">
+            <p style="font-size: 1.5rem">
+              The customer is getting their query resolved before they ever need
+              to talk to an agent. Testimonial 2
+            </p>
+            <span style="font-size: 1.4em; font-weight: 600"
+              >Nikhil Asopa<br
+            /></span>
+            <span style="font-size: 1.1em; font-weight: 600"
+              >Senior Vice President and Head of Customer Service</span
+            >
+          </div>
+          <img
+            src="../assets/unacademy-logo-400x400.webp"
+            width="400"
+            height="400"
+            alt=""
+          />
+        </div>
+        <div
+          class="testimonial-card"
+          style="background-color: rgb(203, 231, 163)"
+        >
+          <div class="text">
+            <p style="font-size: 1.5rem">
+              The customer is getting their query resolved before they ever need
+              to talk to an agent. Testimonial 3
+            </p>
+            <span style="font-size: 1.4em; font-weight: 600"
+              >Nikhil Asopa<br
+            /></span>
+            <span style="font-size: 1.1em; font-weight: 600"
+              >Senior Vice President and Head of Customer Service</span
+            >
+          </div>
+          <img
+            src="../assets/dunzo-logo-400x400.webp"
+            width="400"
+            height="400"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="controls testimonial-pagination">
+        <h1 onclick="prevTestimonial()">
+          <i class="bi bi-arrow-left"></i>
+        </h1>
+        <div class="pagination" id="pagination"></div>
+        <h1 onclick="nextTestimonial()">
+          <i class="bi bi-arrow-right"></i>
+        </h1>
+      </div>
+    </div>
+    <div class="section5 seeWhatsNext">
+      <div class="see-whats-next-wrapper">
+        <div class="text-section">
+          <span
+            style="
+              font-size: 1rem;
+              font-weight: 700;
+              letter-spacing: 1.25px;
+              text-transform: uppercase;
+            "
+            >Trending<br
+          /></span>
+          <h2 style="font-size: 3.5rem; font-weight: 700">See what's next</h2>
+          <p style="font-size: 18px">
+            News, events, and insights into the ways Freshworks is making work
+            faster, easier, and more human with advanced AI.
+          </p>
+        </div>
+        <div class="cardSection">
+          <div class="card card-style-b" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="../assets/cssuite-trending.webp"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card card-style-b" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="../assets/Prakash-whatsnew-342x304.webp"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card card-style-b" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="../assets/tl-welcome-to-the-works-1200X627.webp"
+              alt="Card image cap"
+              height="254px"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controls swnPagination">
+        <h1 onclick="prevPage()">
+          <i class="bi bi-arrow-left"></i>
+        </h1>
+        <div class="pagination" id="pagination"></div>
+        <h1 onclick="nextPage()">
+          <i class="bi bi-arrow-right"></i>
+        </h1>
+      </div>
+    </div>
+    <div class="container careerSection">
+      <div class="row">
+        <div class="col-sm">
+          <img src="../assets/Life-at-Freshworks.webp" alt="" />
+        </div>
+        <div class="col-sm">
+          <span
+            style="
+              font-size: 1rem;
+              font-weight: 700;
+              letter-spacing: 1.25px;
+              text-transform: uppercase;
+            "
+            >Life at Human-Before-Resource</span
+          >
+          <h1 style="font-size: 3.1rem; font-weight: 700">
+            Build your career with us
+          </h1>
+          <p style="font-size: 1.4rem">
+            Freshworks is 5,000+ employees across 13 global locations focused on
+            one goal: to help more people find success. Come do your best work
+            with us.
+          </p>
+          <div class="section-button">
+            <button type="button" class="btn-lg btn-primary">
+              Careers at HBR
+            </button>
+            <button type="button" class="btn-lg btn-outline-secondary">
+              See How We Work
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container recommendations">
+      <div class="wrapper">
+        <h1>Recommended by leading industry <br />experts</h1>
+        <div class="recommendationImages">
+          <img src="../assets/gartner-magicquadrant-220x240.webp" alt="" />
+          <img src="../assets/G2-Best-software-award-2023.webp" alt="" />
+          <img src="../assets/best-of-price-winter-2023-tr.webp" alt="" />
+          <img src="../assets/Forrester-Accolade-220x240.webp" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid cta-section">
+      <div class="cta-text">
+        <h1>60,000+ global customers found a better way to work. Your turn.</h1>
+        <p>Start your 14-day free trial. No credit card required.</p>
+      </div>
+      <div class="cta-section-button">
+        <button type="button" class="btn-lg btn-primary">
+          Start Free Trial
+        </button>
+        <button type="button" class="btn-lg btn-outline-secondary">
+          Get a Demo
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter"></use></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </footer>
+
+    <script src="../src/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
